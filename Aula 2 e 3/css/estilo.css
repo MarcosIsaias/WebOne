@@ -1,0 +1,57 @@
+/*Arquivo CSS*/
+
+/*seletor de tag*/
+body {
+	background-color:#000;
+	color:#fff;
+	font-family: 'Zen Dots', cursive;
+	font-size:14px;
+	text-align:justify;
+}
+
+section {
+	width:90%;
+	margin:auto;
+	
+}
+
+header {
+	width:100%;
+	height:150px;
+	background:#7B68EE;
+	
+}
+
+nav {
+	width:100%;
+	height:50px;
+	background:#4B0082;
+	
+}
+
+aside {
+	width:30%;
+	height:400px;
+	background:#9370DB;
+	float:left;
+	
+}
+
+main {
+	width:70%;
+	height:400px;
+	background-color:#fff;
+	color:#1C1C1C;
+	float:right;
+	
+}
+
+footer {
+	width:100%;
+	height:50%;
+	background-color:#4B0082;
+	clear:both;
+	
+}
+	
+

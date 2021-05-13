@@ -1,0 +1,12 @@
+/*Arquivo para Flex-Box*/
+
+.item {
+	text-align:center;
+	margin:1%;
+	border-radius: 1%;
+	font-size:1.2em;
+	font-weight:200;
+	background-color:#1e1f1f;
+	color: rgb(255, 255, 255);
+
+}

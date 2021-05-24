@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--Link da pagina Estrutura em CSS-->
+    <link href="css/estilo.css" rel="stylesheet">
+
+    <!--Img Favicon ou seja imagem que vai ao lado do titilo na aba do navegador-->
+    <link rel="shortcut icon" href="img/dotafav.png">
+
+    <title>Dota II - Fan-page</title>
+
+  </head>
+  <body>
+       <nav class="navbar" style="background: rgb(0, 0, 0);">
+             <a class="navbar-brand" href="#" style="color: white;">inicio</a>
+             <a class="navbar-brand" href="#" style="color: white;">Game</a>
+             <a class="navbar-brand" href="#" style="color: white;">Builds</a>
+             <a class="navbar-brand" href="#" style="color: white">Equipes</a>
+             <input type="submit" class="btn btn-danger" onclick="user()" value="User"> 
+             <div style="color: chocolate;" id="objetos"></div>
+             
+             <script>
+              function user() {
+                var pessoa = new Object();
+                  pessoa.nome = "Thayer";
+                  pessoa.sobrenome = " Santos";
+                  pessoa.id = "SilverSoul";
+        
+                  //Definição
+                  document.getElementById("objetos").innerHTML = "Nome: " + pessoa.nome + "<br>Sobrenome: " + pessoa.sobrenome + "<br>Id Game: " + pessoa.id;
+                  }
+            </script>                     
+      </nav>
+
+      <header>
+        <img src="img/dotatwo.jpg" width="100%" height="450px">
+      </header>
+
+      <section style="padding: 1% 2%; width: 100%;">
+        <!--Grid-->
+        <div class="row">
+          <!--Imagem da pagina do jogo Dota 2-->
+			    <div class="col-md-6" style="width: auto; padding: 1% 5%;">
+          <a href="https://store.steampowered.com/app/570/Dota_2/" target="_blank">
+				  <img src="img/logo1.png" style="width: 40%; height: auto;" 
+          class="img-fluid"/>
+          </a>
+
+          <!--Imagem da pagina da Steam-->
+          <a href="https://store.steampowered.com/" target="_blank">
+          <img src="img/steam.webp" style="width: 25%; height: auto;" 
+          class="img-fluid"/>
+          </a>
+
+          <!--Imagem da pagina do Discord-->
+          <a href="https://discord.com/" target="_blank">
+          <img src="img/discord.png" style="width: 20%; height: auto;" 
+          class="img-fluid"/>
+          </a>			
+			  </div>
+
+        <!--Coluna 1-->
+        <div class="col-md" style="font-size: 2em;">
+          |
+          <hr>
+          |
+        </div>
+
+        <!--Coluna 2-->
+			  <div class="col-md-5">
+                 <div class="container" style="font-size: 13px; width: 100%;">
+                 <h4>Dota II</h4>
+                 é um jogo estilo moba,
+                 desenvolvido pela valve é um dos games mais dispitudados da atualidade.
+                 <hr>
+                 #Campeonatos #Disputas #Clãns #Diversão #Amizades
+           </div>
+        </div>
+      </section>
+
+      <main>
+        <hr>
+        <div style="padding-left: 3%; width: 90%;">
+        <div class="card bg-dark text-white">
+          <img class="card-img" src="img/dotaone.jpg" alt="Imagem do card">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Registro</h5>
+            <p class="card-text">Cadastre-se e receba nossa informações.</p>
+            <form>
+              <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" name="name" class="form-control" id="idNome">
+              </div>
+          
+              <div class="form-group">
+                <label for="email">Endereço de E-mail:</label>
+                <input type="email" name="email" class="form-control" id="emailDigitado">
+              </div>
+              <div style="padding-left: 40%;">
+              <button type="submit" class="btn btn-light">Enviar</button>
+              </div>
+           </form>
+          </div>
+        </div>
+        </div>
+
+        <hr>
+        <!--Grid Videos-->
+        <div style="padding-left: 15%; width: auto;">
+        <div class="row">
+        <!--Video 1-->
+          <div class="row align-item-start">
+           <div class="col">
+            <iframe width="200" height="auto" 
+             src="https://www.youtube.com/embed/_aCP9Z9xieo" 
+             title="YouTube video player" 
+             frameborder="0" 
+             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+             allowfullscreen>
+            </iframe>
+           </div>
+          </div>
+
+        <!--Video 2-->
+          <div style="padding-left: 5%;">
+           <div class="row align-item-center">
+             <div class="col">
+              <iframe width="200" height="auto" 
+               src="https://www.youtube.com/embed/yfoCoxthk5w" 
+               title="YouTube video player" 
+               frameborder="0" 
+               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+               allowfullscreen>
+              </iframe>
+             </div>
+           </div>
+          </div>
+        </div>
+        </div>
+      </main>
+
+      <aside>
+        <div class="container" style="padding: 2% 1%;">
+          <div class="card text-white bg-danger mb-3" style="max-width: 30rem;">
+            <div class="card-body">
+              <h5 class="card-title">Informações Gerais:</h5>
+              <p class="card-text"> O jogo mais jogado no Steam.
+                Todos os dias, milhões de jogadores ao redor do mundo batalham 
+                como um dos mais de cem heróis do Dota. Não importa se estão 
+                jogando há 10 ou 1.000 horas, sempre há algo de novo para descobrir. 
+                Com atualizações frequentes que garantem a constante evolução de mecânicas, 
+                recursos e heróis, Dota 2 se tornou mais que um simples jogo.</p>
+            </div>
+          </div>
+        </div>
+
+
+
+      </aside>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
